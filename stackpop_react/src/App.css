@@ -1,0 +1,133 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+  
+}
+
+body{
+  font-family: Gill Sans, Verdana;
+  background-color: transparent;
+  color: #7d2ae8;
+  margin: 8px;
+  padding: 8px;
+}
+
+p {
+  text-transform: none;
+}
+
+.app {
+  background-color: transparent;
+  color: #7d2ae8;
+  font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+  margin: 8px;
+  padding: 8px;
+}
+
+header {
+  margin: 8px;
+  padding: 8px;
+  background-color: #00c4cc;
+  border-radius: 12pt;
+  
+}
+
+footer{
+  color: #00c4cc;
+  margin: 8px;
+  padding: 8px;
+  background-color: #7d2ae8;
+  border-radius: 12pt;
+}
+
+
+table {
+  width: 100%; 
+  border-collapse: separate; 
+  border-color: #7d2ae8;
+  border-radius: 12pt;
+  font-family: Gill Sans, Verdana;
+  text-transform: none;
+  font-weight: bold;
+
+}
+
+
+tr, th{
+  border-color: #7d2ae8;
+  border: 2px solid ; 
+  padding: 10px; 
+  color: #7d2ae8;
+}
+
+tr, td {
+  border: 2px solid ; 
+  border-spacing: 3px;
+  padding: 10px; 
+  text-align: left; 
+  border-color: #7d2ae8;
+  border-radius: 12pt;
+  font-weight: normal;
+  color: #00c4cc;
+  background-color: #7d2ae8;
+  font-size: medium;
+  
+}
+
+th{
+  background: #00c4cc;
+  font-weight: bold; 
+  text-align: center; 
+  border-radius: 12pt;
+  font-weight: bold;
+  border: none;
+  
+}
+
+.no-border-row  {
+  border: none;
+  color: lightcoral;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+a {
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+button {
+  background-color: #00c4cc;
+  font-family: Gill Sans, Verdana;
+  border-radius: 12px;
+  color: #7d2ae8;
+  border: 2px solid; 
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+  font-size: 16px;
+  
+}
+
+input {
+  background-color: #00c4cc;
+  font-family: Gill Sans, Verdana;
+  color: #2b2f32b8;
+}
+
+
+select {
+  background-color: #00c4cc;
+  color: #2b2f32b8;
+  font-family: Gill Sans, Verdana;
+}
+
+
